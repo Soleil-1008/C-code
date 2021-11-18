@@ -1,28 +1,28 @@
-//°üº¬Ò»¸ö½Ğstdio.hµÄÎÄ¼ş
-//std-±ê×¼ standard input output
-
+//åŒ…å«ä¸€ä¸ªå«stdio.hçš„æ–‡ä»¶
+//std-æ ‡å‡† standard input output
+//æ‰“å°å„ç§æ•°æ®ç±»å‹
 #include <stdio.h>
-//char--×Ö·ûÀàĞÍ
-//int--ÕûĞÍ
-//short int--¶ÌÕûĞÍ
-//long int--³¤ÕûĞÍ
-//%d-´òÓ¡ÕûĞÍ
-//%c-´òÓ¡×Ö·û
-//%f-´òÓ¡¸¡µãÊı×Ö-Ğ¡Êı
-//%p-ÒÔµØÖ·ĞÎÊ½´òÓ¡
-//%x-´òÓ¡16½øÖÆÊı×Ö 
+//char--å­—ç¬¦ç±»å‹
+//int--æ•´å‹
+//short int--çŸ­æ•´å‹
+//long int--é•¿æ•´å‹
+//%d-æ‰“å°æ•´å‹
+//%c-æ‰“å°å­—ç¬¦
+//%f-æ‰“å°æµ®ç‚¹æ•°å­—-å°æ•°
+//%p-ä»¥åœ°å€å½¢å¼æ‰“å°
+//%x-æ‰“å°16è¿›åˆ¶æ•°å­— 
 int main() {
-	char ch = 'A';//ÄÚ´æ
-	printf("%c\n", ch);//%c--´òÓ¡¸ñÊ½µÄÊı¾İ
+	char ch = 'A';//å†…å­˜
+	printf("%c\n", ch);//%c--æ‰“å°æ ¼å¼çš„æ•°æ®
 	int age = 20;
-	printf("%d\n", age);//%d--´òÓ¡ÕûĞÍÊ®½øÖÆÊı¾İ
+	printf("%d\n", age);//%d--æ‰“å°æ•´å‹åè¿›åˆ¶æ•°æ®
 	short num1 = 5;
 	long num2 = 100;
 	printf("%d\n", num1);
 	printf("%d\n", num2);
-	float f = 5.0;//6Î»Ğ¡Êı
+	float f = 5.0;//6ä½å°æ•°
 	printf("%f\n", f);
-	double d = 3.14;//6Î»Ğ¡Êı
+	double d = 3.14;//6ä½å°æ•°
 	printf("%lf\n", d);
 	return 0;
 }
